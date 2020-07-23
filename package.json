@@ -1,0 +1,34 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engine": {
+    "node": "10.15.3",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.16.0",
+    "body-parser": "^1.19.0",
+    "callback-to-async-iterator": "^1.1.1",
+    "compression": "^1.7.4",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.7.0",
+    "graphql-playground-middleware-express": "^1.7.18",
+    "graphql-subscriptions": "^1.1.0",
+    "http": "0.0.1-security",
+    "mongoose": "^5.9.25",
+    "nodemon": "^2.0.4",
+    "subscriptions-transport-ws": "^0.9.17"
+  }
+}
