@@ -37,5 +37,5 @@ app.use(
 const port = process.env.PORT || 4000;
 app.listen(port);
 console.log(
-  "Running a GraphQL API server at https://ysd6s.sse.codesandbox.io/graphql"
+  "Running a GraphQL API server at https://bjtf2.sse.codesandbox.io/graphql"
 );
