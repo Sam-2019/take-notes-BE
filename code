@@ -1,0 +1,26 @@
+mutation{
+  createNote(title:"Note",detail:"Notes",
+  created_at:"2020-07-22T06:13:51.883Z",
+  updated_at:"2020-07-122T06:13:51.883Z"){
+    _id
+    title
+    detail
+  }
+}
+
+mutation {
+  deleteNote(_id: "5f08071f21ff6f38f42e8591") {
+    _id
+  }
+}
+
+mutation {
+updateNote(_id:"5f17ea138e11d70590c564ba", 
+  title: "dave", 
+  detail: "String"){
+  _id
+    title
+    detail
+}
+}
+
