@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 // Construct a schema, using GraphQL schema language
 app.use(
   "/graphql",
-  graphqlHTTP(request => ({
+  graphqlHTTP((request) => ({
     schema: graphQLSchema,
     rootValue: graphQLResolvers,
     context: request.headers,
@@ -37,5 +37,5 @@ app.use(
 const port = process.env.PORT || 4000;
 app.listen(port);
 console.log(
-  "Running a GraphQL API server at https://bjtf2.sse.codesandbox.io/graphql"
+  "Running a GraphQL API server at https://8tdto.sse.codesandbox.io/graphql"
 );
